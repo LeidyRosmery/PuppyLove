@@ -27,13 +27,17 @@
   padding: 16px 0;
   font-family: sans-serif; }
 
-.btn-principal {
+.btn-principal, .btn-secondary {
   width: 160px;
   height: 50px;
   border: none;
   background: #ED4933;
   color: #fff;
   border-radius: 4px; }
+
+.btn-secondary {
+  background: none;
+  border: #fff solid 3px; }
 
 .bg-header p {
   display: inline-block;

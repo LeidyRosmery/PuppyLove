@@ -58,6 +58,12 @@
     border-radius: 4px;
 }
 
+.btn-secondary {
+  @extend .btn-principal;
+  background: none;
+  border: #fff solid 3px;
+}
+
 .bg-header p {
     display: inline-block;
     color: #fff;
