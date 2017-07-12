@@ -89,6 +89,11 @@
   .medidaImg--left {
     left: 20%; }
 
+.information {
+  background-color: #642EFE;
+  color: #fff;
+  text-align: center; }
+
 .item {
   background: #2E2EFE;
   /* width: 410px; */
@@ -102,5 +107,17 @@
   flex-direction: column; }
   .item--color {
     background-color: #5858FA; }
+
+.bg-adopta {
+  width: 100vw;
+  height: 25vh;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .bg-adopta--up {
+    background-position: 10% 90%;
+    height: 13vh; }
+  .bg-adopta--down {
+    background-position: 25% 53%; }
 
 /*# sourceMappingURL=main.css.map */
