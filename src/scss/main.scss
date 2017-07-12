@@ -3,23 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-$columns: 12;
-$column-width: 100%/$columns;
-$breakpoints: (xs : 0, sm : 768px, md : 992px, lg : 1200px );
-@function column-width($column) {
-     @return $column-width*$column;
-}
-@mixin column($media, $min-width) {
-     @media (min-width:$min-width){
-            .column-#{$media}-5 {
-                width: column-width(5);
-                float: left;
-            }
-    }
-}
-@each $name, $width in $breakpoints {
-     @include column($name, $width);
-}
+// $columns: 12;
+// $column-width: 100%/$columns;
+// $breakpoints: (xs : 0, sm : 768px, md : 992px, lg : 1200px );
+// @function column-width($column) {
+//      @return $column-width*$column;
+// }
+// @mixin column($media, $min-width) {
+//      @media (min-width:$min-width){
+//             .column-#{$media}-5 {
+//                 width: column-width(5);
+//                 float: left;
+//             }
+//     }
+// }
+// @each $name, $width in $breakpoints {
+//      @include column($name, $width);
+// }
 
 
 .bg-header {
@@ -68,15 +68,8 @@ $breakpoints: (xs : 0, sm : 768px, md : 992px, lg : 1200px );
     font-stretch: 10;
     padding: 40px 0;
 }
-.row{
-  margin:0 !important ;
-  padding: 0 !important;
-}
-.cont
-.img-puppy{
-  margin:0 !important ;
-  padding: 0 !important;
-}
+
+
 .section {
   background-color: #21B2A6;
   height: 560px;
@@ -101,4 +94,43 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.img-puppy{
+  padding-left: 0px !important ;
+  padding-right: 0px !important ;
+  background: #333;
+  color: #fff;
+
+}
+
+.text-descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 280px;
+
+}
+.medidaImg {
+  width: 80%;
+  position: relative;
+  background: #333;
+  height: 280px;
+&--left{
+  left: 20%;
+}
+}
+.item {
+    background:#2E2EFE;
+    /* width: 410px; */
+    color: #fff;
+    height: 270px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 122px;
+    flex-direction: column;
+  &--color{
+    background-color: #5858FA;
+  }
 }
