@@ -1,0 +1,24 @@
+{
+  "name": "puppy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node serve.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeidyRosmery/PuppyLove.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeidyRosmery/PuppyLove/issues"
+  },
+  "homepage": "https://github.com/LeidyRosmery/PuppyLove#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
