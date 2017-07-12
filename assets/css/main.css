@@ -3,6 +3,22 @@
   padding: 0;
   box-sizing: border-box; }
 
+@media (min-width: 0) {
+  .column-xs-5 {
+    width: 41.66667%;
+    float: left; } }
+@media (min-width: 768px) {
+  .column-sm-5 {
+    width: 41.66667%;
+    float: left; } }
+@media (min-width: 992px) {
+  .column-md-5 {
+    width: 41.66667%;
+    float: left; } }
+@media (min-width: 1200px) {
+  .column-lg-5 {
+    width: 41.66667%;
+    float: left; } }
 .bg-header {
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
@@ -49,6 +65,7 @@
   margin: 0 !important;
   padding: 0 !important; }
 
+.cont
 .img-puppy {
   margin: 0 !important;
   padding: 0 !important; }
